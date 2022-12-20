@@ -1,0 +1,18 @@
+{
+  "name": "qa-testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "cypress": "^12.1.0",
+    "mocha": "^10.2.0",
+    "npx": "^10.2.2"
+  }
+}
