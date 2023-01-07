@@ -1,13 +1,22 @@
-## API TESTING USING CYPRESS & POSTMAN  
+## Efficient API Testing with Postman: A Comprehensive Guide
 
-### This is a handy project showcasing the power of Cypress/Postman for API testing.
+One tool that is commonly used for API testing is Postman.
 
-In this example a simple 'facts' API endpoint was called via Cypress with a GET method and the response was validated to include the required body. 
+To use Postman for API testing, you can follow these steps:
 
+1. Install Postman on your computer.
 
-> Cypress and postman can be integrated for more automated testing against live API responds vs. traditional method of injection mocked data into the test application. The advantage of Cypress/Postman integration will lead into more robust and scalable testing applications which requires minimal maintenace and supervision.
+2. Create a new request in Postman. You can choose from various request methods such as GET, POST, PUT, DELETE, etc. depending on the purpose of your request.
 
+3. Set the request URL to the API endpoint that you want to test.
 
+4. Add any necessary headers, query parameters, or body data to the request.
+
+5. Send the request and view the response.
+
+6. Examine the response to see if it meets your expectations. You can use the built-in testing and validation features in Postman to automate this process.
+
+Postman also has many other features that can be useful for API testing, such as the ability to save requests for later use, create and organize collections of requests, and create and run automated API tests.
 Following gif is the result of this simple 'facts' API which runs via Cypress CLI and Cypress Chrome UI. Additionally, Postman is used to validate the status of the API and verification of the respond...
 
 ---
@@ -15,4 +24,3 @@ Following gif is the result of this simple 'facts' API which runs via Cypress CL
 ![Result](report.gif)
 
 ---
-
